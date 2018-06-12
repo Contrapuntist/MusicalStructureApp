@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">pizzicato</string>
+    <string name="header_img">record player image</string>
+    <string name="albums">albums</string>
+    <string name="artists">artists</string>
+    <string name="songs">songs</string>
+    <string name="playlists">playlists</string>
+</resources>
