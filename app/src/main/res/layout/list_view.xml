@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:id="@+id/list_view"
     android:orientation="vertical"
-    android:divider="#81A60A"
-    android:dividerHeight="2dp"
-    android:padding="16dp"
-    android:background="#eee"
+    android:divider="@color/brown_red"
+    android:dividerHeight="@dimen/divider_height"
+    android:padding="@dimen/padding_16"
+    android:background="@color/light_grey"
     tools:context=".AlbumsActivity" />

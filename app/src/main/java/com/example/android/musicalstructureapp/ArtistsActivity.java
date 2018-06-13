@@ -1,7 +1,6 @@
 package com.example.android.musicalstructureapp;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -10,7 +9,7 @@ import java.util.ArrayList;
 public class ArtistsActivity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_view);
 
@@ -25,7 +24,7 @@ public class ArtistsActivity extends AppCompatActivity {
         artistsList.add("Metallica");
         artistsList.add("Paco de Lucia");
 
-        ArrayAdapter<String> adaptor = new ArrayAdapter<String>(this, R.layout.single_item_view, R.id.artist_name, artistsList);
+        ArrayAdapter<String> adaptor = new ArrayAdapter<String>(this, R.layout.single_item_view, R.id.single_list_text, artistsList);
 
         ListView listView = findViewById(R.id.list_view);
 

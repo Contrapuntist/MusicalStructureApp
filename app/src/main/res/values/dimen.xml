@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Text sizes-->
+    <dimen name="btn_text_size">28sp</dimen>
+    <dimen name="main_list_text_size">24sp</dimen>
+    <dimen name="text_size_over_img">26sp</dimen>
+    <dimen name="subtext_list_text_size">18sp</dimen>
+
+    <!--Spacing-->
+    <dimen name="icon_dimen">40dp</dimen>
+    <dimen name="padding_16">16dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="divider_height">2dp</dimen>
+    <dimen name="img_header_height">125dp</dimen>
+    <dimen name="btn_height">100dp</dimen>
+    <dimen name="btn_width">150dp</dimen>
+</resources>

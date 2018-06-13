@@ -17,7 +17,7 @@
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="125dp"
+                android:layout_height="@dimen/img_header_height"
                 android:contentDescription="@string/header_img"
                 android:scaleType="centerCrop"
                 android:src="@drawable/recordplayerbkg" />
@@ -26,13 +26,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:layout_margin="24dp"
-                android:background="#aa0A2A5A"
+                android:layout_margin="@dimen/margin_24"
+                android:background="@color/image_txt_background_color"
                 android:fontFamily="@font/comfortaa_regular"
-                android:padding="16dp"
+                android:padding="@dimen/padding_16"
                 android:text="@string/app_name"
-                android:textColor="#ffffff"
-                android:textSize="36sp"
+                android:textColor="@color/wht_txt"
+                android:textSize="@dimen/text_size_over_img"
                 android:textStyle="bold" />
 
         </RelativeLayout>
@@ -54,20 +54,20 @@
                 android:fontFamily="@font/comfortaa_light"
                 android:text="@string/artists"
                 android:textAllCaps="false"
-                android:textColor="#fff"
-                android:textSize="28sp" />
+                android:textColor="@color/wht_txt"
+                android:textSize="@dimen/btn_text_size" />
 
             <Button
                 android:id="@+id/albums_btn"
-                android:layout_width="150dp"
-                android:layout_height="100dp"
-                android:layout_margin="16dp"
-                android:background="#6C8D02"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:layout_margin="@dimen/margin_16"
+                android:background="@color/green"
                 android:fontFamily="@font/comfortaa_light"
                 android:text="@string/albums"
                 android:textAllCaps="false"
-                android:textColor="#fff"
-                android:textSize="28sp" />
+                android:textColor="@color/wht_txt"
+                android:textSize="@dimen/btn_text_size" />
 
         </LinearLayout>
 
@@ -79,27 +79,27 @@
 
             <Button
                 android:id="@+id/songs_btn"
-                android:layout_width="150dp"
-                android:layout_height="100dp"
-                android:layout_margin="16dp"
-                android:background="#734F22"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:layout_margin="@dimen/margin_16"
+                android:background="@color/brown"
                 android:fontFamily="@font/comfortaa_light"
                 android:text="@string/songs"
                 android:textAllCaps="false"
-                android:textColor="#fff"
-                android:textSize="28sp" />
+                android:textColor="@color/wht_txt"
+                android:textSize="@dimen/btn_text_size" />
 
             <Button
                 android:id="@+id/playlists_btn"
-                android:layout_width="150dp"
-                android:layout_height="100dp"
-                android:layout_margin="16dp"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:layout_margin="@dimen/margin_16"
                 android:background="#0A2A5A"
                 android:fontFamily="@font/comfortaa_light"
                 android:text="@string/playlists"
                 android:textAllCaps="false"
-                android:textColor="#fff"
-                android:textSize="28sp" />
+                android:textColor="@color/wht_txt"
+                android:textSize="@dimen/btn_text_size" />
 
         </LinearLayout>
 

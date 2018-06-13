@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/single_item_textview" >
 
     <TextView
-        android:id="@+id/artist_name"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/single_list_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:fontFamily="@font/comfortaa_regular"
-        android:textColor="#0244A6"
-        android:textSize="24dp"
-        android:padding="16dp" />
+        android:textColor="@color/lighter_blue"
+        android:textSize="@dimen/main_list_text_size"
+        android:padding="@dimen/padding_16"
+        tools:text="Metallica"/>
+
+    <ImageButton
+        android:layout_width="@dimen/icon_dimen"
+        android:layout_height="@dimen/icon_dimen"
+        android:layout_marginTop="@dimen/margin_8"
+        android:layout_marginEnd="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_8"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_chevron_right_black_24dp"/>
 
 </LinearLayout>

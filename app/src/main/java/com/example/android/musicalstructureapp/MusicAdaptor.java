@@ -23,17 +23,17 @@ public class MusicAdaptor extends ArrayAdapter<Music> {
         View listItemView = convertView;
 
         if(listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_view, parent, false);
+            listItemView = LayoutInflater.from(getContext())
+                    .inflate(R.layout.album_artists_items, parent,false);
         }
 
         Music currentAlbum = getItem(position);
 
-        TextView albumName = (TextView) listItemView.findViewById(R.id.top_text);
-        albumName.setText(currentAlbum.getAlbumName());
+        TextView topText = (TextView) listItemView.findViewById(R.id.top_text);
+        topText.setText(currentAlbum.getMainText());
 
-        TextView artistName = (TextView) listItemView.findViewById(R.id.bottom_text);
-
-        artistName.setText(currentAlbum.getArtistName());
+        TextView bottomText = (TextView) listItemView.findViewById(R.id.bottom_text);
+        bottomText.setText(currentAlbum.getmSubText());
 
         return listItemView;
     }

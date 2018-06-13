@@ -5,22 +5,22 @@ public class Music {
     /**
      * Create local variables for album and artists names
      */
-    private String mAlbumName;
-    private String mArtistName;
+    private String mMainText;
+    private String mSubText;
 
     /**
      * Method for creating the music object
-     * @param albumName name of album
-     * @param artistName artist name
+     * @param mainText name of album
+     * @param subText artist name
      */
-    public Music (String albumName, String artistName) {
-        mAlbumName = albumName;
-        mArtistName = artistName;
+    public Music (String mainText, String subText) {
+        mMainText = mainText;
+        mSubText= subText;
     }
 
     /**
      * Methods for retrieving value of each variable: album and artist names
      */
-    public String getAlbumName() { return mAlbumName; }
-    public String getArtistName() { return mArtistName; }
+    public String getMainText() { return mMainText; }
+    public String getmSubText () { return mSubText; }
 }
